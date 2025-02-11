@@ -1,0 +1,66 @@
+* {
+    font-family: Poppins;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+body {
+    background-color: rgba(248, 249, 250);
+}
+
+.text-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: .7rem 0;
+}
+
+.text-skill {
+    opacity: .7;
+    font-size: 1.5rem;
+    margin-bottom: 2.2rem;
+}
+
+.media span {
+    cursor: pointer;
+}
+
+.about p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+footer{
+    background-color:aqua;
+}
+.contact iframe{
+     width: 100%;
+     min-height: 500px;
+}
+
+@media (max-width: 768px){
+     .text-title{
+      font-size: 2rem;
+      margin-top: 2rem;
+     }
+     .text-skill{
+        font-size: 1rem;
+     }
+     .hidden-sm{
+        display: none;
+    
+     }
+     .btn-mb{
+        margin-bottom: 5px;
+     }
+     .description{
+        font-size: 1rem;
+     }
+     
+      .send{
+        margin-bottom: 10px;
+      }
+      
+}
